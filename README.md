@@ -1,6 +1,6 @@
 ## Sortable List Component
 
-> FrontendPro Challenge: [Sortable List Component](https://www.frontendpro.dev/frontend-coding-challenges/sortable-list-component-yfG6JlItkHMpWze4wacs)
+> FrontendPro Challenge: [Sortable List Component](https://www.frontendpro.dev/frontend-coding-challenges/sortable-list-component-yfG6JlItkHMpWze4wacs), [Figma Design](https://www.figma.com/design/cRCjlSiRyGuGdtuySb8Tnk/Sortable-List-Component?node-id=8-10&t=q9LK9f8dRJtnJpB5-1)
 
 - overflow-x/y-auto 활용
 - ScrollArea 활용
@@ -21,9 +21,12 @@
   - 부모 container가 overflow-x/y-auto 일 때, 중앙 정렬돼있으면 왼쪽/위쪽 시작점이 보이지 않음 (부모 container 밖으로 밀려나게 됨)
 
 ## 추가적인 고민
-- 다른 페이지에 사용할 때, layout component를 어떻게 분리할 것인지? : 컨텐츠 컨테이너만 각 페이지에 사용하고, 나머지는 전체 레이아웃으로 분리하는 것이 좋아보임
-- 자식 container에 mx/my-auto 외 다른 좋은 방법이 있을지? : 고민해볼 것
-- Navbar 같은 component가 한 쪽에 고정 시, 어떻게 나눌 것인지? : flex-1(flex-grow 차이점: flex-shrink 0/1 차이) 사용하는 것이 좋아보임
+- 다른 페이지에 사용할 때, layout component를 어떻게 분리할 것인지?
+  - 컨텐츠 컨테이너만 각 페이지에 사용하고, 나머지는 전체 레이아웃으로 분리하는 것이 좋아보임
+- 자식 container에 mx/my-auto 외 다른 좋은 방법이 있을지?
+  - 고민해볼 것
+- Navbar 같은 component가 한 쪽에 고정 시, 어떻게 나눌 것인지?
+  - flex-1(flex-grow 차이점: flex-shrink 0/1 차이) 사용하는 것이 좋아보임
 <details>
 <summary>claude 답변</summary>
 
