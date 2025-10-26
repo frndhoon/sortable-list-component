@@ -76,9 +76,9 @@ const App = () => {
 	return (
 		// 전체 화면 레이아웃
 		<div className="h-screen w-full overflow-x-auto overflow-y-auto bg-gray-400">
-			{/* 세로, 가로 중앙 정렬 (items-center, justify-center 시 overflow-x/y-auto 왼쪽/위쪽 시작점이 보이지 않음) */}
+			{/* 페이지 컨테이너 (items-center, justify-center 시 overflow-x/y-auto 왼쪽/위쪽 시작점이 보이지 않음) */}
 			<div className="flex h-full w-full flex-col">
-				{/* 페이지 컨테이너 (중앙 정렬 및 최소 너비 지정) */}
+				{/* 컨텐츠 컨테이너 (세로/가로 중앙 정렬 및 최소 너비 지정) */}
 				<div className="mx-auto my-auto flex min-w-[71.7rem] flex-col items-center gap-y-[1rem]">
 					<h1 className="text-40 font-semibold text-blue-200">Select your top 5 tech skills</h1>
 
